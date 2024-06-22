@@ -1,6 +1,9 @@
 
 public abstract class Leg {
-	
+
+    /**
+     * The Leg class is an abstract class defining one “leg” of a route between two locations.
+     */
 	private Location origin;
 	private Location destination;
 	private int distanceInKm = 0;

@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * The Location class is an abstract class representing a location along a possible delivery route.
+ */
 public abstract class Location {
 	private String name;
 	public ArrayList<Leg> connecting;

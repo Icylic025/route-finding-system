@@ -1,4 +1,6 @@
-
+/**
+ * TruckDepot has name that is 8 uppercase letters and/or numbers
+ */
 public class TruckDepot extends Location {
 
 	private String name;

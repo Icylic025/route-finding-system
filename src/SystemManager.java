@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+/**
+ * The System Manager provides an interface between the client and the Route Finding System.  It contains a list of all
+ * locations and a list of all the legs in the system. A text display of information on all the legs and locations in
+ * the system can be accessed by calling printSystemDetails().
+ */
 public class SystemManager {
 	private ArrayList<Location> locations = new ArrayList <Location>();
 	private ArrayList<Leg> legs = new ArrayList <Leg>();

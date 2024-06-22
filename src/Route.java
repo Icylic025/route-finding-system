@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * The Route class represents an ordered list of connected legs between two Locations. It contains a list of Legs which
+ * form a route between these two Locations.
+ */
 public class Route {
 	
 	private ArrayList <Leg> legs;
